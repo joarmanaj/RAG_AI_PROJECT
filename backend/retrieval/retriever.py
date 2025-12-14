@@ -7,7 +7,7 @@ try:
     from langchain_community.vectorstores import FAISS
 except ModuleNotFoundError:
     # Older / monolithic LangChain fallback
-    from langchain_community.vectorstores import FAISS
+    from langchain.vectorstores import FAISS
 
 try:
     from langchain_huggingface import HuggingFaceEmbeddings
