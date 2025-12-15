@@ -7,3 +7,4 @@ faiss-cpu
 sentencepiece
 langchain-huggingface
 langchain_community
+sentence-tranformers
