@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # ---- CONFIG ----
-BACKEND_URL = "http://127.0.0.1:8000/query"  # FastAPI backend endpoint
+BACKEND_URL = "https://rag_ai_project.onrender.com/query"  # FastAPI backend endpoint
 
 st.set_page_config(page_title="Joarmanaj Agency RAG Assistant", page_icon="🤖")
 
