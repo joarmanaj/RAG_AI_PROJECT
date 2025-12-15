@@ -5,6 +5,4 @@ transformers
 langchain==1.1.0
 faiss-cpu
 sentencepiece
-langchain-huggingface
-langchain_community
-sentence-tranformers
+sentence-transformers==2.2.2
